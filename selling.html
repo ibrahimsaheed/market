@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex text-center"
+            style="background-color: white; border: ridge ;height: 100px;padding-top: 30px;  ">
+            <a href="home.html" id="head"
+                style="padding: 26px;border-radius: 20px ;border: 1px;border-style: ridge;width: 40px; height: 20px;text-decoration: none;">Home</a>
+            <a href="market.html" id="head"
+                style="padding: 26px;border-radius: 20px ;border: 1px;border-style: ridge;width: 40px; height: 20px;">Market</a>
+            <a href="selling.html" id="head"
+                style="padding: 26px;border-radius: 20px ;border: 1px;border-style: ridge;width: 40px; height: 20px;">Sellers</a>
+            <a href="about.html" id="head"
+                style="padding: 26px;border-radius: 20px ;border: 1px;border-style: ridge;width: 40px; height: 20px;">Contact
+                us</a>
+        </div>
+        <div id="text">
+            <br>
+            <h6 id="text">Put Your Details </h6>
+            <br>
+            <form class="form" action="market.html">
+                <label for="name">Name :</label>
+                <input type="text" placeholder="Name" class="form-control" style="width: 70%" ; id="first" name="first" required>
+                <br>
+                <label for="name2">SecondName :</label>
+                <input type="text" id="second" placeholder="SecondName" class="form-control" style="width: 70%" ;
+                    required>
+                <br>
+                <label for="name3">LastName :</label>
+                <input type="text" placeholder="LastName" class="form-control" style="width: 70%; " id="last" required>
+                <br>
+                <label for="name3">Age :</label>
+                <input type="number" placeholder="Age" class="form-control" style="width: 70%; " id="age" required>
+                <br>
+                <label for="name3">PhoneNumber :</label>
+                <input type="number" placeholder="PhoneNumber" class="form-control" style="width: 70%;  " id="number"
+                    required>
+                <br>
+                <label for="name3">Password :</label>
+                <input type="password" placeholder="Password" class="form-control" style="width: 70%; " id="pass"
+                    required>
+                <br>
+                <h6 id="text">Put In Your Picture</h6>
+                
+                    <label for="">Click Here to</label>     
+                    <input type="file" class="btn-outline-secondary" required>
+                
+                <h6 id="text">Put in your description of the product you want to sell</h6>
+                <label for="name3">Description :</label>
+                <input type="text" placeholder="Description" class="form-control" id="description" style="width: 70%; " required>
+                <br>
+
+                <button type="submit" class="btn text-center btn-outline-secondary" id="Submit">Show me</button>
+            </form>
+            <div id="sell">
+                <h1>Name Of The Seller :</h1>
+                <span class="first"></span> <span class="second"></span> <span class="last"></span>
+                <h1>PhoneNumber :</h1>
+                <span class="number"></span>
+                <h1>Description :</h1>
+                <span class="description"></span>
+                <button  type="button" class="btn text-center btn-outline-secondary" id="save">Save to Market</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body{
+  background-color: blue;
+}
+#drop{
+  display: none;
+}
+#head{
+  text-decoration: none;
+
+}
+#head:hover{
+text-decoration: none;
+background-color: midnightblue;
+color: white;
+}
+#text{
+color: white;
+}
+#sell{
+  display: none;
+}
