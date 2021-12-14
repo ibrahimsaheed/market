@@ -1,21 +1,96 @@
 body{
   background-color: blue;
 }
-#drop{
-  display: none;
-}
+
 #head{
   text-decoration: none;
 
 }
 #head:hover{
 text-decoration: none;
-background-color: midnightblue;
+background-color: transparent;
 color: white;
+}
+
+
+#image{
+
+  width: 400px;
+  height: 400px;
+
+}
+#border{
+  border:dotted;
+  border: white;
+  border-width: 7px;
+  border-style: ridge;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.border2{
+  border-style: none;
+  border-radius: 20px;
+  border:white;
+  border: none;
+  background-color: white;
+  padding-left: 20px;
+  color: blue;
 }
 #text{
-color: white;
+  color: white;
+  }
+#sub2{
+  display: none;
 }
-#sell{
+.title{
+  font-size: 350px;
+  text-align: center;
+  color: white;
+}
+.change{
+  border-style: none;
+  border-radius: 20px;
+  border:white;
+  border: none;
+  background-color: white;
+  width:1000px ;
+  height:100px ;
+  text-align: center;
+  padding-top: 25px;
+  margin-top: 97px;
+  margin-left: 95px;
+
+}
+.green-background {
+  background-color: green;
+
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+.pink-background {
+  background-color: pink;
+}
+.sunnyred-background {
+  background-color: orangered;
+}
+.brown-background {
+  background-color: brown;
+}
+
+
+.black-background {
+  background-color: black;
+}
+.pot{
+  margin-left: 540px;
+  margin-bottom: -90px;
+}
+.change{
   display: none;
 }
